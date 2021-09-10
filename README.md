@@ -7,3 +7,6 @@ It consists mainly of tools and processes tracking changing versions of data and
 
 ## History of DVC
 [Read about the history of DVC](https://github.com/janklasek1/dvc_final_project/blob/main/Short_History.md)
+
+## DVC and Git
+[Read about the connection of DVC and Git](https://github.com/janklasek1/dvc_final_project/blob/main/DVC_and_git.md)
