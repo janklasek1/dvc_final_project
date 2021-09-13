@@ -10,3 +10,12 @@ It consists mainly of tools and processes tracking changing versions of data and
 
 ## DVC and Git
 [Read about the connection of DVC and Git](https://github.com/janklasek1/dvc_final_project/blob/main/DVC_and_git.md)
+
+## DVC Installation
+[Read about how to install the DVC](https://github.com/janklasek1/dvc_final_project/blob/982fb9dbb27b3c6c221a7dfbada3abe5fd2ff7ef/How_to_intall.md)
+
+## Working with large dataset
+[Read about the DVC how to handle with large datasets](https://github.com/janklasek1/dvc_final_project/blob/4ef346be0413e524c587f5d3e9c870e6fdc9712a/Working_with_large_datasets.md)
+
+## Effect of DVC on Workflows
+[Read about the effect of DVC on Workflows](https://github.com/janklasek1/dvc_final_project/blob/dcdc004ae33280265358923b109fc5b0fd80d677/DVC_workflow.md)
