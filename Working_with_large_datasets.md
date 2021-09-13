@@ -1,13 +1,15 @@
-# Accessing and Preserving Large Datasets before DVC
+# Working with large datasets
 
-Controlling large-scale data without DVC or a similar tool is almost inconceivable today. Before these tools evolved, ML statistics were handled manually by good old CTRL-C, CTRL-V, and conventional file trees. Here were a few tactics used to manage unwieldy large data files:
+The DVC file defines the data file as well as the instructions that will be run. DVC allows you to quickly save data on a variety of storage systems, including local drives, SSH servers, and cloud services (S3, GCP, etc.). DVC-managed data may be readily shared with other users of this storage system.
 
-- **Allocate more memory**: One method was to use a tool to increase the available memory for your machine learning libraries.
+#### DVC can precisely record the time and files utilized.
 
-- **Smaller samples**: DVC enables you to track large data files (from 10 G to 100 GB). Before DVC, however, tracking such large files was not possible, so engineers had to work on portable samples of thousands or hundreds of thousands of rows at a time.
+DVC's core is data storage (DVC cache), which is designed for storing and versioning big files. The team can decide which files should be saved in SCM (such as Git) and which should be stored in DVC. Store DVC-managed files in a way that allows DVC to keep several versions of each file and use file system links to easily alter the file version in use.
 
-- **Allocate more hardware**: Separate computing machines or cloud services were used to run algorithms so as to avoid crashes.
+#### DVC remembers the precise sequence of instructions that were used at a given moment in time.
 
-- **Change data format**: Another approach was to alter your data format from CSV to binary to save large data in a more compact form.
+DVC files can remember not only the files that were utilized in a given execution stage, but also the commands that were performed during that stage. As a result, the produced DVC file contains all of our input data, code and configuration, and output data, which matches to the DVC file presented in the previous section.
 
-- **Relational databases**: These were used to store and retrieve big datasets in a less taxing fashion.
+#### DVC makes it simple for team members to exchange data and code.
+
+The notion of remote storage exists in DVC. The DVC workspace may send data to and receive data from distant storage. The remote storage pool can be located on any cloud storage platform (S3, GCP, and so on) as well as an SSH server. To share code, settings, and data with coworkers, you must first create a remote storage pool. The SCM keeps track of the configuration file that stores the remote storage definition. Then, copy the SCM repository to the shared server, which includes the DVC configuration file. When your colleagues clone the repository, they will be able to access data from the remote cache right away. This implies that your coworkers won't have to worry about how to run your code. They can quickly replicate your exact processes and achieve outcomes by making full use of reliable data.
