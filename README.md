@@ -25,3 +25,6 @@ It consists mainly of tools and processes tracking changing versions of data and
 
 ## Disadvantages of DVC
 [Read about the Disadvantages of DVC](https://github.com/janklasek1/dvc_final_project/blob/62220f8de69478547446905d967a78575edc2b82/Disadvantages%20of%20DVC.md)
+
+## Bibliography
+[Read about the Bibliography](https://github.com/janklasek1/dvc_final_project/blob/7dad5579b0bdd364556a161772ffdb20962ac6a5/Advantages%20of%20DVC.md)
