@@ -9,7 +9,7 @@ DVC is often written in Python and installed with tools like as pip and conda.
 
  $ pip install dvc
 
->According on the type of remote storage you plan on using, optional dependencies may be required: [s3], [azure], [gdrive], [oss], and [ssh]. Include them all by typing [all].
+>Depending on the type of remote storage you plan on using, optional dependencies may be required: [s3], [azure], [gdrive], [oss], and [ssh]. Include them all by typing [all].
 
 ### Install with conda
 The Anaconda Prompt command line terminal on Windows lets you utilize conda.
