@@ -8,6 +8,8 @@ Iterative.ai. (n.d.). DVC - Installation on Windows. DVC. Retrieved September 14
 
 iterative.ai. (n.d.). Large dataset optimization. iterative.ai. Retrieved September 14, 2021, from https://dvc.org/doc/user-guide/large-dataset-optimization. 
 
+iterative.ai. (n.d.). Large dataset optimization. iterative.ai. Retrieved September 14, 2021, from https://dvc.org/doc/user-guide/large-dataset-optimization. 
+
 Karajan1001. (2021, September 14). Iterative/Dvc: DATA version control: Git for data &amp; Models: Ml EXPERIMENTS Management. GitHub. Retrieved September 14, 2021, from https://github.com/iterative/dvc. 
 
 Kijko, P. (2021, August 13). Best 7 data version control tools that improve your workflow with machine learning projects. Neptune Blog. Retrieved September 14, 2021, from https://neptune.ai/blog/best-7-data-version-control-tools-that-improve-your-workflow-with-machine-learning-projects. 
