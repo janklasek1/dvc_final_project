@@ -19,3 +19,9 @@ It consists mainly of tools and processes tracking changing versions of data and
 
 ## Effect of DVC on Workflows
 [Read about the effect of DVC on Workflows](https://github.com/janklasek1/dvc_final_project/blob/dcdc004ae33280265358923b109fc5b0fd80d677/DVC_workflow.md)
+
+## Advantages of DVC
+[Read about the Advantages of DVC](https://github.com/janklasek1/dvc_final_project/blob/e0ea5858ba0789bccdc3b938932cdfba50fdb987/Advantages%20of%20DVC.md)
+
+## Disadvantages of DVC
+[Read about the Disadvantages of DVC](https://github.com/janklasek1/dvc_final_project/blob/62220f8de69478547446905d967a78575edc2b82/Disadvantages%20of%20DVC.md)
