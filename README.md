@@ -1,7 +1,7 @@
 # Data version control
 Data Version Control (DVC) is an open-source version control system intended for use mainly in big Machine Learning projects. Although it can work stand-alone, it is commonly used as an extension to Git as it uses similar command line environment. Moreever it works with nearly all programming languages (Python, C++, Julia, R etc.)
 
-As the name suggests, DVC brings a contribution in handling the datasets the models were trained on to allow their easy reproducibility later on. It also helps team members to manage their pipelines and ML models
+As the name suggests, DVC brings a contribution in handling the datasets the models were trained on to allow their easy reproducibility later on. It also helps team members to manage their pipelines and ML models.
 
 It consists mainly of tools and processes tracking changing versions of data and collections of previous data. Repositories usually refer to files  or directories under the influence of version control system.
 
@@ -27,4 +27,4 @@ It consists mainly of tools and processes tracking changing versions of data and
 [Read about the Disadvantages of DVC](https://github.com/janklasek1/dvc_final_project/blob/62220f8de69478547446905d967a78575edc2b82/Disadvantages%20of%20DVC.md)
 
 ## Bibliography
-[Read about the Bibliography](https://github.com/janklasek1/dvc_final_project/blob/6ae92f929c72e266008e242ea5070074fdef16b6/Bibliography.md)
+[See the list of references](https://github.com/janklasek1/dvc_final_project/blob/6ae92f929c72e266008e242ea5070074fdef16b6/Bibliography.md)
